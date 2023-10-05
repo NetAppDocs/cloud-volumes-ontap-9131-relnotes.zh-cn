@@ -701,4 +701,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
+  <block id="8b2d765c50b94c53d6721cec3481a157" category="section-title">9.13.1P1 (2023年10月3日)</block>
+  <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">如果您的Connector运行的是3.9.26或更高版本、则9.13.1 P1修补程序现在可用于适用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">查看P1修补程序中已修复的错误列表</block>
+  <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
 </blocks>
