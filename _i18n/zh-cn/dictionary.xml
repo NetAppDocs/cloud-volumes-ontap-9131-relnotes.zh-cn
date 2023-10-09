@@ -442,9 +442,7 @@ HA对：18个、在一个节点中^1^</block>
   <block id="9f71cb3204a7c80e435b6337aed1e728" category="cell">256 TiB</block>
   <block id="6c3b49ddb811c2d88edee86163680009" category="section-title">基于节点的许可限制</block>
   <block id="d017aa906544a3348ee35d75ebb10b72" category="paragraph">以下磁盘限制适用于使用基于节点的许可的Cloud Volumes ONTAP 系统、此许可模式是上一代许可模式、可用于按节点许可Cloud Volumes ONTAP。基于节点的许可仍可供现有客户使用。</block>
-  <block id="52960fb5a2829740ddef9c61b6015d59" category="list-text">如果您使用基于节点的许可、则可以为Cloud Volumes ONTAP BYOL系统购买多个基于节点的许可证、以分配超过368 TiB的容量。</block>
   <block id="275e3ef1a302e67e93bcf0f30d566f74" category="inline-link">了解如何向 Cloud Volumes ONTAP 添加其他系统许可证</block>
-  <block id="05c9b06fc32318d0689c553219a9d496" category="paragraph">您可以为单节点系统或 HA 对购买的许可证数量不受限制。请注意，磁盘限制可能会阻止您单独使用磁盘来达到容量限制。您可以通过超出磁盘限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。</block>
   <block id="fff4bb20e652c529e2e22e76e56ed9b5" category="section-title">采用PAYGO Premium的单节点</block>
   <block id="40959eff270cd482e3813b16716a7ee3" category="cell">21 ^1^</block>
   <block id="c7867e37fc822edce03899d5be8cd610" category="cell">19 ^2^</block>
@@ -454,7 +452,6 @@ HA对：18个、在一个节点中^1^</block>
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">使用多个许可证时的最大系统容量</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">* 仅磁盘 *</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">* 磁盘 + 数据分层 *</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">每个许可证 368 TiB x</block>
   <block id="9dbb7f356b08de585f6ddbe523e4a8d8" category="section-title">采用PAYGO Premium的HA对</block>
   <block id="156b98ab4634edb024f99442726e3e8d" category="cell">18 ^1^</block>
   <block id="dee0912fefbe003d7ae380d371a87fad" category="cell">16 ^2^</block>
@@ -705,4 +702,7 @@ HA对：18个、在一个节点中^1^</block>
   <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">如果您的Connector运行的是3.9.26或更高版本、则9.13.1 P1修补程序现在可用于适用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
   <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">查看P1修补程序中已修复的错误列表</block>
   <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB (需要多个许可证)</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">您可以为Cloud Volumes ONTAP BYOL单节点或HA对系统购买多个基于节点的许可证、以分配368 TiB以上的容量、最高可达到测试和支持的最大系统容量限制2 PIB。请注意，磁盘限制可能会阻止您单独使用磁盘来达到容量限制。您可以通过超出磁盘限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。尽管Cloud Volumes ONTAP支持的最大测试和支持系统容量为2 PIB、但超过2 PIB限制将导致系统配置不受支持。</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">从Cloud Volumes ONTAP 9.12.1开始、AWS机密云和Top机密云区域支持购买多个基于节点的许可证。</block>
 </blocks>
