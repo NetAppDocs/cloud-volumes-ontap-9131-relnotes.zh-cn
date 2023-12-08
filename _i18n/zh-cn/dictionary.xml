@@ -719,4 +719,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="a4cdabe7d09534b66cc3588e7a6be157" category="list-text"><block ref="64910144ceff590b89d211507e69f99d" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
   <block id="ce5d0c77f167b881391469fc27895727" category="inline-link-macro">查看P2修补程序中已修复的错误列表</block>
   <block id="3a241c1cc236161cb13d8868799bd35d" category="list-text"><block ref="6401b436e7a7c9f3878e464100366d7a" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
+  <block id="487316814a4f56d3ca4bfee261070fe8" category="section-title">9.13.1P4 (2023年12月8日)</block>
+  <block id="3ce503369e80942d964c3b72a728ac2c" category="paragraph">现在、所有云提供商都可以使用适用于Cloud Volumes ONTAP的9.13.1P4修补程序。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="cae74b75cb879fa6011c4bc1e9acafed" category="inline-link-macro">查看P4修补程序中已修复的错误列表</block>
+  <block id="174f5a3432e3e9670c04cb8a7c4f61c3" category="paragraph"><block ref="efca5c18573798e68d22652d087930ab" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
 </blocks>
