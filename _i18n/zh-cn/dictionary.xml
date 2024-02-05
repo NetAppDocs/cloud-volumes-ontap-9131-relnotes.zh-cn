@@ -731,4 +731,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">从Cloud Volumes ONTAP 9.13.1.开始的BlueXP</block>
   <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">分层克隆深度是指可从单个FlexVol卷创建的FlexClone卷嵌套层次结构的最大深度</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
+  <block id="9be6e2b3828ef34b87981b1fed1d7d49" category="section-title">9.13.1(二○二二○二年2月5日)</block>
+  <block id="45c3fd07b44be9221ac34d409aa7afa2" category="paragraph">现在、所有云提供商都可以使用适用于Cloud Volumes ONTAP的9.13.1p6修补程序。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">查看在p6修补程序中修复的错误列表</block>
+  <block id="417efdf7267a8f2b68aa9938ecb8ed83" category="paragraph"><block ref="40427ff7eb35eecb9c6ff0d928baffa1" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
 </blocks>
