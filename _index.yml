@@ -1,6 +1,10 @@
 ---
 indexpage:
-  lead: 本发行说明介绍了Cloud Volumes ONTAP 9.13.1的新增功能、限制和已知问题。
+  title: Cloud Volumes ONTAP 9.13.1发行说明
+  summary: 本发行说明介绍了Cloud Volumes ONTAP 9.13的新增功能、限制和已知问题。
+  keywords: cloud volumes ontap, licensing, security, release notes, storage, data
+    protection, configuration, upgrade, encryption, cvo, 9131
+  lead: 本发行说明介绍了Cloud Volumes ONTAP 9.13的新增功能、限制和已知问题。
   tiles:
   - title: 入门
     links:
