@@ -747,4 +747,8 @@ HA对：18个、在一个节点中^1^</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> （需要登录 NetApp 支持站点）。</block>
   <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">本发行说明介绍了Cloud Volumes ONTAP 9.13的新增功能、限制和已知问题。</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
+  <block id="b751384b4979535feaa24cfc577163c2" category="section-title">9.13.1P10 (2024年8月8日)</block>
+  <block id="d848e97b4447527dba6ddf2890e6029e" category="paragraph">9.13.1P10修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
+  <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link-macro">查看P10修补程序中已修复的错误列表</block>
+  <block id="b1e4228a90e1bd4d8c8125fa2bcdaf56" category="paragraph"><block ref="4817b26d1928657df237ce2d3d15198c" category="inline-link-macro-rx"></block> (需要登录NetApp支持站点)。</block>
 </blocks>
