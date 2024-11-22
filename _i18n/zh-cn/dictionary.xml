@@ -755,4 +755,11 @@ HA对：18个、在一个节点中^1^</block>
   <block id="f171f0e8d194c2373f3cc30c09a319da" category="paragraph">9.13.1 P11修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">查看P11修补程序中已修复的错误列表</block>
   <block id="4473c3792db930b11f3b08ad362c20a0" category="paragraph"><block ref="95ca1819697e369f884e111fea0785c3" category="inline-link-macro-rx"></block> (需要登录NetApp支持站点)。</block>
+  <block id="596423d773da4d74868ca1a577a8f423" category="paragraph">FabricPool的一些性能改进可能会影响Cloud Volumes ONTAP中的分层数据。</block>
+  <block id="97aaaff90c83c1de77726c6f8e7edfe5" category="paragraph-title">提高了顺序读取速度和层化</block>
+  <block id="72104ef2281edd2d898132944d4a7d79" category="paragraph">由于FabricPool中的读取性能和分层吞吐量有所提高、因此内部对象存储中的和<block ref="3e75383a5992a6d15fb81e872e46e256" prefix=" " category="inline-code"></block>操作速率可能会更高<block ref="7528035a93ee69cedb1dbddb2f0bfcc8" prefix=" " category="inline-code"></block>。确保有足够的性能余量来实现无缝性能。</block>
+  <block id="a96f02a492680446509f1ea5ea14d111" category="paragraph-title">主动预读功能</block>
+  <block id="11239924a0f998971d2f090e7e50b3e0" category="paragraph"><block ref="567317ccd355e882ed3e573ab1b87615" prefix=" " category="inline-code"></block>FabricPool中的功能可能会增加文件级别的读取操作、而这反过来又会增加公共云中的读取成本和内存利用率。</block>
+  <block id="9e212a2c3e1a9570b60e318e22e8c381" category="paragraph-title">Cloud Write功能</block>
+  <block id="c2c4fca58f0994c8802a93fe1a04cd7d" category="paragraph">通过此功能、NFS客户端可以直接写入FabricPool中的容量层。此功能具有某些限制、应谨慎使用。例如、如果将云写入NFS流量添加到常规ONTAP流量(例如SnapMirror)中、则SnapMirror中的整体恢复点目标(RPO)和恢复时间目标(RTO)可能会受到影响。</block>
 </blocks>

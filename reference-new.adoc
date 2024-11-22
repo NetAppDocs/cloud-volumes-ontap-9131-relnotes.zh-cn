@@ -104,6 +104,17 @@ Cloud Volumes ONTAP 9.13.1正式发布版现已在AWS、Azure和Google Cloud中�
 
 Cloud Volumes ONTAP 9.13.1的候选版本1现已在AWS、Azure和Google Cloud中推出。
 
+FabricPool的一些性能改进可能会影响Cloud Volumes ONTAP中的分层数据。
+
+.提高了顺序读取速度和层化
+由于FabricPool中的读取性能和分层吞吐量有所提高、因此内部对象存储中的和 `PUT`操作速率可能会更高 `GET`。确保有足够的性能余量来实现无缝性能。
+
+.主动预读功能
+ `Aggressive Readahead`FabricPool中的功能可能会增加文件级别的读取操作、而这反过来又会增加公共云中的读取成本和内存利用率。
+
+.Cloud Write功能
+通过此功能、NFS客户端可以直接写入FabricPool中的容量层。此功能具有某些限制、应谨慎使用。例如、如果将云写入NFS流量添加到常规ONTAP流量(例如SnapMirror)中、则SnapMirror中的整体恢复点目标(RPO)和恢复时间目标(RTO)可能会受到影响。
+
 
 
 == 升级说明
