@@ -20,6 +20,14 @@ Cloud Volumes ONTAP 9.13.1提供了一些新的增强功能。
 
 
 
+== 9.13.1 P12 (2024年11月25日)
+
+9.13.1 P12修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P12["查看P12修补程序中已修复的错误列表"^] (需要登录NetApp支持站点)。
+
+
+
 == 9.13.1P11 (2024年10月14日)
 
 9.13.1 P11修补程序现在可用于所有云提供商的Cloud Volumes ONTAP。BlueXP将提示您将现有系统升级到此修补程序版本。
@@ -109,11 +117,17 @@ FabricPool的一些性能改进可能会影响Cloud Volumes ONTAP中的分层数
 .提高了顺序读取速度和层化
 由于FabricPool中的读取性能和分层吞吐量有所提高、因此内部对象存储中的和 `PUT`操作速率可能会更高 `GET`。确保有足够的性能余量来实现无缝性能。
 
+要了解更多信息、请参见 https://www.netapp.com/media/17239-tr-4598.pdf["FabricPool最佳实践指南"^]
+
 .主动预读功能
  `Aggressive Readahead`FabricPool中的功能可能会增加文件级别的读取操作、而这反过来又会增加公共云中的读取成本和内存利用率。
 
+要了解更多信息、请参阅ONTAP文档： https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-aggressive-read-ahead-task.html#enable-aggressive-read-ahead-mode-during-volume-creation["启用和禁用主动预读模式"^]
+
 .Cloud Write功能
 通过此功能、NFS客户端可以直接写入FabricPool中的容量层。此功能具有某些限制、应谨慎使用。例如、如果将云写入NFS流量添加到常规ONTAP流量(例如SnapMirror)中、则SnapMirror中的整体恢复点目标(RPO)和恢复时间目标(RTO)可能会受到影响。
+
+要了解更多信息、请参阅ONTAP文档： https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-volume-cloud-write-task.html["启用和禁用卷以直接写入云"^]
 
 
 
